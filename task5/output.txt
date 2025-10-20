@@ -1,0 +1,3 @@
+All numbers in file: [10.0, 20.0, 30.0, 40.0, 50.0, 10.5, 11.5, 12.5]
+Randomly selected two numbers: 12.5, 50.0
+Calculation result: 12.5 + 50.0 = 62.5
