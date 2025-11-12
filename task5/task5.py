@@ -55,9 +55,10 @@ def read_and_write_file():
 
     except FileNotFoundError:
         print(f"Error: File '{input_path}' not found")
+        return 0.0
     except Exception as e:
         print(f"Error processing file: {e}")
-
+        return 0.0
 
 def main():
     print("Test function 1: Calculate sum of two numbers")
