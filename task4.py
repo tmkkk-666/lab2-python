@@ -37,7 +37,7 @@ class PostGraduate(Student):
     def get_scholarship(self):
         if self.average_score == 5.0:
             return 8000
-        elif 0 < self.average_score < 5.0:
+        elif 0 <= self.average_score < 5.0:
             return 6000
         else:
             return 0
