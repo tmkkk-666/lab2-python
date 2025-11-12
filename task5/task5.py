@@ -32,9 +32,7 @@ def read_and_write_file():
             tokens = f.read().strip().split()
         
         # Convert to float numbers
-        numbers = []
-        for token in tokens:
-            numbers.append(float(token))
+        numbers = [float(token) for token in tokens]
         
         # Check if at least two numbers exist
         if len(numbers) < 2:
